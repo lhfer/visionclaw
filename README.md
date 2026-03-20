@@ -6,8 +6,6 @@
 
 > *"Like having a tiny AI assistant living on your desk, with personality."*
 
-https://github.com/user-attachments/assets/placeholder
-
 ---
 
 ## ✨ Features
