@@ -8,7 +8,9 @@
 
 ### 🎥 演示视频
 
-<video src="https://github.com/lhfer/visionclaw/releases/download/v0.1.0/demo.mp4" controls width="100%"></video>
+[![演示视频](demo_preview.gif)](https://github.com/lhfer/visionclaw/releases/download/v0.1.0/demo.mp4)
+
+*点击预览图观看完整演示视频*
 
 ---
 

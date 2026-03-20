@@ -8,7 +8,9 @@
 
 ### 🎥 Demo
 
-<video src="https://github.com/lhfer/visionclaw/releases/download/v0.1.0/demo.mp4" controls width="100%"></video>
+[![Demo Video](demo_preview.gif)](https://github.com/lhfer/visionclaw/releases/download/v0.1.0/demo.mp4)
+
+*Click the preview to watch the full demo video*
 
 ---
 
