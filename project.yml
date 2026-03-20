@@ -1,0 +1,32 @@
+name: ShrimpXR
+options:
+  bundleIdPrefix: com.shrimpxr
+  deploymentTarget:
+    visionOS: "26.0"
+  xcodeVersion: "26.3"
+
+targets:
+  ShrimpXR:
+    type: application
+    platform: visionOS
+    sources:
+      - path: ShrimpXR/Sources
+      - path: ShrimpXR/Resources
+        buildPhase: resources
+    settings:
+      base:
+        INFOPLIST_FILE: ShrimpXR/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.shrimpxr.app
+        PRODUCT_NAME: ShrimpXR
+        SWIFT_VERSION: "6.0"
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: ShrimpXR/Info.plist
+      properties:
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+        NSMicrophoneUsageDescription: "ShrimpXR needs microphone access to listen to your voice commands."
+        NSSpeechRecognitionUsageDescription: "ShrimpXR uses speech recognition to understand your commands."
+        NSLocalNetworkUsageDescription: "ShrimpXR connects to OpenClaw on your Mac Mini."
+        NSBonjourServices:
+          - _shrimpxr._tcp

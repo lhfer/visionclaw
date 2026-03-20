@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AB2D28E058DD44F105AE28D /* shrimpboy.blend1 in Resources */ = {isa = PBXBuildFile; fileRef = 4F917AC87B01E55B9D0E740D /* shrimpboy.blend1 */; };
+		0B1CEECDA46865499C1701E0 /* Walking.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1F25E3EB3EE6777EEC25AAD5 /* Walking.usdz */; };
+		1BBA919EB52F8563F128921B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C924FF339612937A30D3010 /* NetworkManager.swift */; };
+		1FE4FBC13108A07539ADC702 /* Running.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0A737DDA3D3D3D8FD3F54B40 /* Running.usdz */; };
+		22D34B6FC320AB5255649988 /* Idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 20AF16FA5369BEC7BE85BA24 /* Idle.usdz */; };
+		2685097C6AE7DCC1562E0321 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4342325FBE63D47C90B6F /* ControlPanelView.swift */; };
+		290FA3272D230074A9049213 /* Focus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9FDF0188D7B1F24FCCC3C0A8 /* Focus.usdz */; };
+		2F231E8973FE79AD3E63E13C /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245048F9814E6E89AD2E514 /* SpeechManager.swift */; };
+		32E976FC00F5FE16C982CA62 /* 3d卡通螃蟹帽人物模型.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B932098DE750DA1CE0E14D9C /* 3d卡通螃蟹帽人物模型.usdz */; };
+		33D929C397C098869A342BAA /* Victory.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CFA18B064FB901E098D0DCA0 /* Victory.usdz */; };
+		41017D68DDBF5F3A3D3F9FB8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F286C905ADA1C9FC4905B1 /* SessionManager.swift */; };
+		49AC728E133F80EEC37987D8 /* Start_Walking.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 29247EB7F71EF9CEBC5AAC86 /* Start_Walking.usdz */; };
+		4A405139B98C356EAB0FFC6E /* ShrimpAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D6724AB4E556E78C9AF26 /* ShrimpAnimationController.swift */; };
+		4F230855A4D235CBD27F6C09 /* Sleeping.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C8054CB1671EF749AA397AB5 /* Sleeping.usdz */; };
+		50ED49797CD2792499A17154 /* Standing_Up.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA5E7283D8741BDC0DEB17 /* Standing_Up.usdz */; };
+		5AB2D594FC4981BC86300F98 /* Happy_Idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E75046F98D1D70BE54C5CA14 /* Happy_Idle.usdz */; };
+		5E0D6C9EF2939E7AF72C03CA /* Breathing_Idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A4578ADDC5280933250BD68F /* Breathing_Idle.usdz */; };
+		62B16A64D147D8DE5E48503D /* ShrimpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F89503114DE0085070CD7 /* ShrimpState.swift */; };
+		72AA1E198FADD2AC774D3B1F /* shrimpboy.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C88D3E1FADE0A5B50995DB40 /* shrimpboy.usdz */; };
+		779E5892278A9EC9DCBA53C7 /* Salute.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 415AF4E20A5B13DB34F4E90C /* Salute.usdz */; };
+		78C889F5EC5A58F86B902C12 /* ShrimpImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7502FD2B385D04FBB845388 /* ShrimpImmersiveView.swift */; };
+		7C74B347F669AEFAEFAFE699 /* ShrimpXRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D8F987787560C0F0DACCC /* ShrimpXRApp.swift */; };
+		7EA5A2F1353F8B05A871C3C3 /* Casting_Spell.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 24FDF739175B6A73EF9D3A01 /* Casting_Spell.usdz */; };
+		8B7CA9001B459AEC7B4700C8 /* Walking_Turn_180.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E50FCC5606BB43D8E2265564 /* Walking_Turn_180.usdz */; };
+		AA0EBA834CEC9C028BCE88D2 /* Working.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DFF190D1E017401241917C3C /* Working.usdz */; };
+		AA8BD68A7BBCD3602CD37F15 /* Defeat.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E30CFC3A2F741F725D60E03D /* Defeat.usdz */; };
+		C89E688A6DBC801AAEBDAE35 /* ShrimpBubble3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C239701EEF077EB704A48 /* ShrimpBubble3D.swift */; };
+		CA471914ED740C083074811C /* ShrimpEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4CC3BC88B6D0F44F13C1F3 /* ShrimpEntity.swift */; };
+		D283A5904FCA8FF734F5740A /* Dynamic_Pose.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CB7D2126568A4B8D59BDA2B6 /* Dynamic_Pose.usdz */; };
+		DDEB337BDD5656846655ADAD /* Dancing.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CE10FE0D8F48521FFE79B5A1 /* Dancing.usdz */; };
+		E0EF17CC83DB3887FC9D74B5 /* lobster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E8E7C71D7F87DDD64FCFCA86 /* lobster.usdz */; };
+		E11442B1B6A6760D47662E91 /* shrimpboy.blend in Resources */ = {isa = PBXBuildFile; fileRef = 169DD74581915CD9327C1CFC /* shrimpboy.blend */; };
+		ED9C5BC38165CACF1009E666 /* ShrimpAnimationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5F06119D6A3D1A453540B /* ShrimpAnimationSystem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A737DDA3D3D3D8FD3F54B40 /* Running.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Running.usdz; sourceTree = "<group>"; };
+		169DD74581915CD9327C1CFC /* shrimpboy.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = shrimpboy.blend; sourceTree = "<group>"; };
+		1C924FF339612937A30D3010 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1F25E3EB3EE6777EEC25AAD5 /* Walking.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Walking.usdz; sourceTree = "<group>"; };
+		20AF16FA5369BEC7BE85BA24 /* Idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Idle.usdz; sourceTree = "<group>"; };
+		24FDF739175B6A73EF9D3A01 /* Casting_Spell.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Casting_Spell.usdz; sourceTree = "<group>"; };
+		29247EB7F71EF9CEBC5AAC86 /* Start_Walking.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Start_Walking.usdz; sourceTree = "<group>"; };
+		2C8F89503114DE0085070CD7 /* ShrimpState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpState.swift; sourceTree = "<group>"; };
+		2DFA5E7283D8741BDC0DEB17 /* Standing_Up.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Standing_Up.usdz; sourceTree = "<group>"; };
+		3245048F9814E6E89AD2E514 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		36C5F06119D6A3D1A453540B /* ShrimpAnimationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpAnimationSystem.swift; sourceTree = "<group>"; };
+		3F8D8F987787560C0F0DACCC /* ShrimpXRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpXRApp.swift; sourceTree = "<group>"; };
+		415AF4E20A5B13DB34F4E90C /* Salute.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Salute.usdz; sourceTree = "<group>"; };
+		4A4D6724AB4E556E78C9AF26 /* ShrimpAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpAnimationController.swift; sourceTree = "<group>"; };
+		4F917AC87B01E55B9D0E740D /* shrimpboy.blend1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = shrimpboy.blend1; sourceTree = "<group>"; };
+		78F286C905ADA1C9FC4905B1 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		9FDF0188D7B1F24FCCC3C0A8 /* Focus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Focus.usdz; sourceTree = "<group>"; };
+		A4578ADDC5280933250BD68F /* Breathing_Idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Breathing_Idle.usdz; sourceTree = "<group>"; };
+		AD4CC3BC88B6D0F44F13C1F3 /* ShrimpEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpEntity.swift; sourceTree = "<group>"; };
+		B3396E026E993E3308EC22ED /* ShrimpXR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrimpXR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7502FD2B385D04FBB845388 /* ShrimpImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpImmersiveView.swift; sourceTree = "<group>"; };
+		B932098DE750DA1CE0E14D9C /* 3d卡通螃蟹帽人物模型.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "3d卡通螃蟹帽人物模型.usdz"; sourceTree = "<group>"; };
+		B99C239701EEF077EB704A48 /* ShrimpBubble3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrimpBubble3D.swift; sourceTree = "<group>"; };
+		C1B4342325FBE63D47C90B6F /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		C8054CB1671EF749AA397AB5 /* Sleeping.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sleeping.usdz; sourceTree = "<group>"; };
+		C88D3E1FADE0A5B50995DB40 /* shrimpboy.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = shrimpboy.usdz; sourceTree = "<group>"; };
+		CB7D2126568A4B8D59BDA2B6 /* Dynamic_Pose.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dynamic_Pose.usdz; sourceTree = "<group>"; };
+		CE10FE0D8F48521FFE79B5A1 /* Dancing.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Dancing.usdz; sourceTree = "<group>"; };
+		CFA18B064FB901E098D0DCA0 /* Victory.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Victory.usdz; sourceTree = "<group>"; };
+		DFF190D1E017401241917C3C /* Working.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Working.usdz; sourceTree = "<group>"; };
+		E30CFC3A2F741F725D60E03D /* Defeat.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Defeat.usdz; sourceTree = "<group>"; };
+		E50FCC5606BB43D8E2265564 /* Walking_Turn_180.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Walking_Turn_180.usdz; sourceTree = "<group>"; };
+		E75046F98D1D70BE54C5CA14 /* Happy_Idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Happy_Idle.usdz; sourceTree = "<group>"; };
+		E8E7C71D7F87DDD64FCFCA86 /* lobster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = lobster.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1456866CA17EF7362B17E656 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A280C463E76EEB5DCAE75F /* App */,
+				E60683539D5142B2BDDAA571 /* Network */,
+				8C06ACDB8516E61B40448F8E /* Shrimp */,
+				8A4737E329FD2300E74938A1 /* Speech */,
+			);
+			name = Sources;
+			path = ShrimpXR/Sources;
+			sourceTree = "<group>";
+		};
+		2A3F0EAFAE1E95F68DBFC390 /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				A4578ADDC5280933250BD68F /* Breathing_Idle.usdz */,
+				24FDF739175B6A73EF9D3A01 /* Casting_Spell.usdz */,
+				CE10FE0D8F48521FFE79B5A1 /* Dancing.usdz */,
+				E30CFC3A2F741F725D60E03D /* Defeat.usdz */,
+				CB7D2126568A4B8D59BDA2B6 /* Dynamic_Pose.usdz */,
+				9FDF0188D7B1F24FCCC3C0A8 /* Focus.usdz */,
+				E75046F98D1D70BE54C5CA14 /* Happy_Idle.usdz */,
+				20AF16FA5369BEC7BE85BA24 /* Idle.usdz */,
+				0A737DDA3D3D3D8FD3F54B40 /* Running.usdz */,
+				415AF4E20A5B13DB34F4E90C /* Salute.usdz */,
+				C8054CB1671EF749AA397AB5 /* Sleeping.usdz */,
+				2DFA5E7283D8741BDC0DEB17 /* Standing_Up.usdz */,
+				29247EB7F71EF9CEBC5AAC86 /* Start_Walking.usdz */,
+				CFA18B064FB901E098D0DCA0 /* Victory.usdz */,
+				E50FCC5606BB43D8E2265564 /* Walking_Turn_180.usdz */,
+				1F25E3EB3EE6777EEC25AAD5 /* Walking.usdz */,
+				DFF190D1E017401241917C3C /* Working.usdz */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
+		8A4737E329FD2300E74938A1 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				3245048F9814E6E89AD2E514 /* SpeechManager.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		8C06ACDB8516E61B40448F8E /* Shrimp */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D6724AB4E556E78C9AF26 /* ShrimpAnimationController.swift */,
+				36C5F06119D6A3D1A453540B /* ShrimpAnimationSystem.swift */,
+				B99C239701EEF077EB704A48 /* ShrimpBubble3D.swift */,
+				AD4CC3BC88B6D0F44F13C1F3 /* ShrimpEntity.swift */,
+				B7502FD2B385D04FBB845388 /* ShrimpImmersiveView.swift */,
+				2C8F89503114DE0085070CD7 /* ShrimpState.swift */,
+			);
+			path = Shrimp;
+			sourceTree = "<group>";
+		};
+		8FBAF5726AA11AF2EA2355A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B932098DE750DA1CE0E14D9C /* 3d卡通螃蟹帽人物模型.usdz */,
+				E8E7C71D7F87DDD64FCFCA86 /* lobster.usdz */,
+				169DD74581915CD9327C1CFC /* shrimpboy.blend */,
+				4F917AC87B01E55B9D0E740D /* shrimpboy.blend1 */,
+				C88D3E1FADE0A5B50995DB40 /* shrimpboy.usdz */,
+				2A3F0EAFAE1E95F68DBFC390 /* animations */,
+			);
+			name = Resources;
+			path = ShrimpXR/Resources;
+			sourceTree = "<group>";
+		};
+		90A93C8CAF12B74FFF760402 = {
+			isa = PBXGroup;
+			children = (
+				8FBAF5726AA11AF2EA2355A8 /* Resources */,
+				1456866CA17EF7362B17E656 /* Sources */,
+				C225C97DAF572DD5DDB6F7C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A280C463E76EEB5DCAE75F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4342325FBE63D47C90B6F /* ControlPanelView.swift */,
+				78F286C905ADA1C9FC4905B1 /* SessionManager.swift */,
+				3F8D8F987787560C0F0DACCC /* ShrimpXRApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C225C97DAF572DD5DDB6F7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3396E026E993E3308EC22ED /* ShrimpXR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E60683539D5142B2BDDAA571 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1C924FF339612937A30D3010 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CA6062C4F1183572B663E2 /* ShrimpXR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCAB7630C20EE66E8D30021 /* Build configuration list for PBXNativeTarget "ShrimpXR" */;
+			buildPhases = (
+				01E3455798C510359769E4D3 /* Sources */,
+				56975023B6093EBAAA601E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShrimpXR;
+			packageProductDependencies = (
+			);
+			productName = ShrimpXR;
+			productReference = B3396E026E993E3308EC22ED /* ShrimpXR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6D40E591B8B4BABEC94DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					E2CA6062C4F1183572B663E2 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 08AC85009C61DBA3F665D090 /* Build configuration list for PBXProject "ShrimpXR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 90A93C8CAF12B74FFF760402;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C225C97DAF572DD5DDB6F7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CA6062C4F1183572B663E2 /* ShrimpXR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56975023B6093EBAAA601E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E976FC00F5FE16C982CA62 /* 3d卡通螃蟹帽人物模型.usdz in Resources */,
+				5E0D6C9EF2939E7AF72C03CA /* Breathing_Idle.usdz in Resources */,
+				7EA5A2F1353F8B05A871C3C3 /* Casting_Spell.usdz in Resources */,
+				DDEB337BDD5656846655ADAD /* Dancing.usdz in Resources */,
+				AA8BD68A7BBCD3602CD37F15 /* Defeat.usdz in Resources */,
+				D283A5904FCA8FF734F5740A /* Dynamic_Pose.usdz in Resources */,
+				290FA3272D230074A9049213 /* Focus.usdz in Resources */,
+				5AB2D594FC4981BC86300F98 /* Happy_Idle.usdz in Resources */,
+				22D34B6FC320AB5255649988 /* Idle.usdz in Resources */,
+				1FE4FBC13108A07539ADC702 /* Running.usdz in Resources */,
+				779E5892278A9EC9DCBA53C7 /* Salute.usdz in Resources */,
+				4F230855A4D235CBD27F6C09 /* Sleeping.usdz in Resources */,
+				50ED49797CD2792499A17154 /* Standing_Up.usdz in Resources */,
+				49AC728E133F80EEC37987D8 /* Start_Walking.usdz in Resources */,
+				33D929C397C098869A342BAA /* Victory.usdz in Resources */,
+				0B1CEECDA46865499C1701E0 /* Walking.usdz in Resources */,
+				8B7CA9001B459AEC7B4700C8 /* Walking_Turn_180.usdz in Resources */,
+				AA0EBA834CEC9C028BCE88D2 /* Working.usdz in Resources */,
+				E0EF17CC83DB3887FC9D74B5 /* lobster.usdz in Resources */,
+				E11442B1B6A6760D47662E91 /* shrimpboy.blend in Resources */,
+				0AB2D28E058DD44F105AE28D /* shrimpboy.blend1 in Resources */,
+				72AA1E198FADD2AC774D3B1F /* shrimpboy.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E3455798C510359769E4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2685097C6AE7DCC1562E0321 /* ControlPanelView.swift in Sources */,
+				1BBA919EB52F8563F128921B /* NetworkManager.swift in Sources */,
+				41017D68DDBF5F3A3D3F9FB8 /* SessionManager.swift in Sources */,
+				4A405139B98C356EAB0FFC6E /* ShrimpAnimationController.swift in Sources */,
+				ED9C5BC38165CACF1009E666 /* ShrimpAnimationSystem.swift in Sources */,
+				C89E688A6DBC801AAEBDAE35 /* ShrimpBubble3D.swift in Sources */,
+				CA471914ED740C083074811C /* ShrimpEntity.swift in Sources */,
+				78C889F5EC5A58F86B902C12 /* ShrimpImmersiveView.swift in Sources */,
+				62B16A64D147D8DE5E48503D /* ShrimpState.swift in Sources */,
+				7C74B347F669AEFAEFAFE699 /* ShrimpXRApp.swift in Sources */,
+				2F231E8973FE79AD3E63E13C /* SpeechManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21E80342D0554EF52397EDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		50A738AA0534D8A6B9DBC608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66LRRU4PY2;
+				INFOPLIST_FILE = ShrimpXR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrimpxr.app;
+				PRODUCT_NAME = ShrimpXR;
+				SDKROOT = xros;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		5D061E7EB5A084071C83BE3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66LRRU4PY2;
+				INFOPLIST_FILE = ShrimpXR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrimpxr.app;
+				PRODUCT_NAME = ShrimpXR;
+				SDKROOT = xros;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		80011CB13827DE59AB34C633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08AC85009C61DBA3F665D090 /* Build configuration list for PBXProject "ShrimpXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E80342D0554EF52397EDEA /* Debug */,
+				80011CB13827DE59AB34C633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBCAB7630C20EE66E8D30021 /* Build configuration list for PBXNativeTarget "ShrimpXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A738AA0534D8A6B9DBC608 /* Debug */,
+				5D061E7EB5A084071C83BE3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6D40E591B8B4BABEC94DF9 /* Project object */;
+}
