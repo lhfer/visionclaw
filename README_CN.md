@@ -6,6 +6,10 @@
 
 > *"就像桌上住着一个有个性的 AI 小助手。"*
 
+### 🎥 演示视频
+
+https://github.com/lhfer/visionclaw/releases/download/v0.1.0/demo.mp4
+
 ---
 
 ## ✨ 核心功能

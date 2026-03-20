@@ -6,6 +6,10 @@
 
 > *"Like having a tiny AI assistant living on your desk, with personality."*
 
+### 🎥 Demo
+
+https://github.com/lhfer/visionclaw/releases/download/v0.1.0/demo.mp4
+
 ---
 
 ## ✨ Features
